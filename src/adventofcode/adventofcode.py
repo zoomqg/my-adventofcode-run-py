@@ -1,16 +1,18 @@
 class AdventOfCode:
-    def __init__(self, input_path):
+    def __init__(self, input_path: str):
         if input_path:
             file = open(input_path, "r")
             raw_data = file.read()
             self.data = raw_data.split("\n")
+        else:
+            self.data: list[str] = []
 
     def resolve_part_1(self) -> int:
         return None
 
     def resolve_part_2(self) -> int:
         return None
-    
+
     def print_result(self):
         part_1_result = self.resolve_part_1()
         part_2_result = self.resolve_part_2()
