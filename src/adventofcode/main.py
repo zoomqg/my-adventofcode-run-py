@@ -1,5 +1,5 @@
-from year_2023.day3 import Day3
+from year_2023.day4 import Day4
 
-a = Day3()
+a = Day4()
 
 a.print_result()
